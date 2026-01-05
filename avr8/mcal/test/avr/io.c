@@ -1,11 +1,11 @@
 /**
- * @file sysHwCfg_init.c
+ * @file io.c
  * @author Tobias Maier (maier-tobias@gmx.de)
- * @brief System HW Configuration Initialization Code
+ * @brief AVR Input/Output Test Module
  * @version 0.1
- * @date 2025-12-25
+ * @date 2026-01-05
  *
- * @copyright Copyright (c) 2025
+ * @copyright Copyright (c) 2026
  *
  */
 
