@@ -1,0 +1,4 @@
+[submodule "c2000/freertos/upstream"]
+	path = c2000/freertos/upstream
+	url = https://github.com/TexasInstruments/c2000ware-FreeRTOS.git
+	shallow = true

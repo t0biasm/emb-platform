@@ -3,8 +3,8 @@ cc_library(
     srcs = [],
     hdrs = glob(["*.h"]),
     deps = [
-        "//platforms/c2000/toolchain:c2000_builtin_directories",
+        "@emb_toolchain//platforms/c2000/toolchain:c2000_builtin_directories",
     ],
     includes = ["."],
-    visibility = ["//machine/evalBoard/tmdscncd28p65x:__subpackages__"],
+    visibility = ["//visibility:public"],
 )

@@ -86,3 +86,7 @@ user.bazelrc
 
 # Local logs
 full_error.log
+
+# Bazel
+bazel-*
+MODULE.bazel.lock

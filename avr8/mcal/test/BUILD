@@ -3,7 +3,7 @@ cc_library(
     srcs = glob(["avr/*.c"]),
     hdrs = glob(["avr/*.h"]),
     deps = [
-        # "//platforms/c2000/toolchain:c2000_builtin_directories",
+        # "@emb_toolchain//platforms/c2000/toolchain:c2000_builtin_directories",
         "@googletest//:gtest",
         "@googletest//:gtest_main",
     ],

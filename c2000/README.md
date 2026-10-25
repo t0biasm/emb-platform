@@ -4,8 +4,8 @@ SW Platform for SW builds supporting the Texas Instruments C2000 MCU family
 ## Build Commands
 - Build SW project
 ```starlark
-bazel build --config=c2000 //machine/evalBoard/tmdscncd28p65x/swe/app:app
-bazel build --config=atmega32u4 //machine/evalBoard/arduinoLeonardo:app
+# from a project repository that includes emb-platform and emb-toolchain, e.g. prj-tif2838
+bazel build --config=c2000 //applications/tif2838:app
 ```
 
 ## Prerequisites

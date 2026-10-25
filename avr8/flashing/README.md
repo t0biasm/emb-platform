@@ -7,7 +7,7 @@
 #### Tool Release Page
 [Releases](https://github.com/avrdudes/avrdude/releases)
 #### Documentation
-[User Manual](avrdude.pdf)
+[User Manual](https://avrdudes.github.io/avrdude/)
 
 #### Flash Instruction
 ##### Windows
