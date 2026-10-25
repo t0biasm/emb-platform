@@ -7,8 +7,8 @@ bazel_dep(name = "emb_toolchain", version = "0.1.0")
 bazel_dep(name = "platforms", version = "1.0.0")
 bazel_dep(name = "bazel_skylib", version = "1.8.2")
 
-# Unit tests (only when this repository is the root module)
-bazel_dep(name = "googletest", version = "1.17.0", dev_dependency = True)
+# Unit test support (//avr8/mcal/test is consumed by project tests)
+bazel_dep(name = "googletest", version = "1.17.0")
 
 # Standalone development of this repo: projects override emb_toolchain with
 # their submodule checkout (local_path_override); overrides of non-root modules
